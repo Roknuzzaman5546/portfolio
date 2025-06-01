@@ -44,19 +44,19 @@ const Banner = () => {
                             className='text-16px text-[#ff8564]'
                         />
                         <ul className='flex justify-center gap-2 mt-[20px] text-white text-[20px]'>
-                            <Link to="https://github.com/Anirat04" target='_blank'>
+                            <Link to="https://github.com/Roknuzzaman5546" target='_blank'>
                                 <li className='hover:text-[#ff714a] transition ease-linear'><FaGithub /></li>
                             </Link>
-                            <Link to="https://www.linkedin.com/in/tanbirhaque/" target='_blank'>
+                            <Link to="https://www.linkedin.com/in/md-roknuzzaman-b794552a3/" target='_blank'>
                                 <li className='hover:text-[#ff714a] transition ease-linear'><FaLinkedin /></li>
                             </Link>
-                            <Link to="https://twitter.com/TanbirHaque04" target='_blank'>
+                            <Link to="https://x.com/Roknuzzaman5546" target='_blank'>
                                 <li className='hover:text-[#ff714a] transition ease-linear'><FaTwitter /></li>
                             </Link>
-                            <Link to="https://www.facebook.com/tanbir.haque.31" target='_blank'>
+                            <Link to="https://www.facebook.com/roknujjamansajib" target='_blank'>
                                 <li className='hover:text-[#ff714a] transition ease-linear'><FaFacebook /></li>
                             </Link>
-                            <Link to="https://www.instagram.com/tanbirhaqeanil/" target='_blank'>
+                            <Link to="https://www.instagram.com/roknujjamansajib/" target='_blank'>
                                 <li className='hover:text-[#ff714a] transition ease-linear'><FaInstagram /></li>
                             </Link>
                         </ul>
