@@ -67,7 +67,7 @@ const Layout = () => {
                         ></Home>
                     </div>
                     <div className="xl:hidden">
-                        <button className="p-2 rounded-full bg-[#61ce70] fixed bottom-5 right-5 z-[999999]"
+                        <button className="p-2 rounded-full bg-[#ff8564] fixed bottom-5 right-5 z-[999999]"
                             onClick={() => {
                                 window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
                             }}

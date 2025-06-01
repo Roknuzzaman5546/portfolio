@@ -12,7 +12,7 @@ const Navbar = ({ handleScroll }) => {
     return (
         <div className="navContainer md:mt-[20px] md:mr-[10px]">
             <ul className="bg-[#31313a] navlink flex justify-center md:inline-block w-full">
-                <NavLink to={'/'} className="hover:text-[#61ce70]">
+                <NavLink to={'/'} className="hover:text-[#ff714a]">
                     <li className="flex flex-col items-center px-4 py-[15px] text-[14px]"
                         onClick={handleScroll[0]}
                     >
@@ -24,7 +24,7 @@ const Navbar = ({ handleScroll }) => {
                         <RiProfileLine className="text-[22px]  mb-[5px]"/>
                         Resume
                     </li> */}
-                <NavLink to='projects' className="hover:text-[#61ce70]">
+                <NavLink to='projects' className="hover:text-[#ff714a]">
                     <li className="flex flex-col items-center px-4 py-[15px] text-[14px]"
                         // onClick={scrollRef}
                         onClick={handleScroll[1]}
@@ -37,7 +37,7 @@ const Navbar = ({ handleScroll }) => {
                         <TfiWrite className="text-[22px] mb-[5px]"/>
                         Blogs
                     </li> */}
-                <NavLink to="contact" className="hover:text-[#61ce70]">
+                <NavLink to="contact" className="hover:text-[#ff714a]">
                     <li className="flex flex-col items-center px-4 py-[15px] text-[14px]"
                         onClick={handleScroll[2]}
                     >

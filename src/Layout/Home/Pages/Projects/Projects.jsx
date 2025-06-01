@@ -20,7 +20,7 @@ const Projects = ({scrollProject}) => {
                     <div className="bg-[#31313a] xl:w-[685px] h-full pt-6 md:overflow-hidden xl:overflow-y-scroll pb-[40px]">
                         <div className="contact_section">
                             <div className="mx-[30px] mb-5">
-                                <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#61ce70]">M</span>y Projects</h3>
+                                <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#ff714a]">M</span>y Projects</h3>
                             </div>
                             <div className="divider m-0 h-0"></div>
                         </div>
@@ -59,27 +59,27 @@ const Projects = ({scrollProject}) => {
                                     <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                                         <a href="#">
                                             <h3 className="font-bold uppercase text-white text-[20px]">
-                                                <span className="text-[#61ce70]">B</span>ery <span className="text-[12px] text-gray-400">- Real Estate Project</span>
+                                                <span className="text-[#ff714a]">B</span>ery <span className="text-[12px] text-gray-400">- Real Estate Project</span>
                                             </h3>
                                         </a>
                                         <p>Bery is a real-state website with 3 different dashboards, for admin, users and agents.</p>
                                         <div className="grid md:grid-cols-2 mt-[8px]">
                                             <div className="grid border-gray-600 border-r-[1px]">
-                                                <p className="text-[#61ce70]">
+                                                <p className="text-[#ff714a]">
                                                     Links
                                                 </p>
-                                                <Link to={'https://assignment-12-bery.web.app/'} target="_blank" className="hover:underline hover:text-[#61ce70]">
+                                                <Link to={'https://assignment-12-bery.web.app/'} target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Live Preview
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/Bery-Client" target="_blank" className="hover:underline hover:text-[#61ce70]">
+                                                <Link to="https://github.com/Anirat04/Bery-Client" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Frontend Code
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/Bery-server" target="_blank" className="hover:underline hover:text-[#61ce70]">
+                                                <Link to="https://github.com/Anirat04/Bery-server" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Backend Code
                                                 </Link>
                                             </div>
                                             <div className="md:text-right mt-[15px] md:mt-0">
-                                                <p className="text-[#61ce70]">Technologies</p>
+                                                <p className="text-[#ff714a]">Technologies</p>
                                                 <div className="grid grid-cols-3 md:justify-items-end gap-2 mt-[5px] text-[20px]">
                                                     <FaReact />
                                                     <SiMongodb />
@@ -139,27 +139,27 @@ const Projects = ({scrollProject}) => {
                                     <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                                         <a href="#">
                                             <h3 className="font-bold uppercase text-white text-[20px]">
-                                                <span className="text-[#61ce70]">S</span>hare food <span className="text-[12px] text-gray-400">- Food Donation Project</span>
+                                                <span className="text-[#ff714a]">S</span>hare food <span className="text-[12px] text-gray-400">- Food Donation Project</span>
                                             </h3>
                                         </a>
                                         <p>Share Food is a food sharing website where people can donate their wastage foods for the people who need this</p>
                                         <div className="grid md:grid-cols-2 mt-[8px]">
                                             <div className="grid border-gray-600 border-r-[1px]">
-                                                <p className="text-[#61ce70]">
+                                                <p className="text-[#ff714a]">
                                                     Links
                                                 </p>
-                                                <Link to="https://assignment-11-share-food.web.app/" target="_blank" className="hover:underline hover:text-[#61ce70]">
+                                                <Link to="https://assignment-11-share-food.web.app/" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Live Preview
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/Share-Food_Client" target="_blank" className="hover:underline hover:text-[#61ce70]">
+                                                <Link to="https://github.com/Anirat04/Share-Food_Client" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Frontend Code
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/Share-Food_Server" target="_blank" className="hover:underline hover:text-[#61ce70]">
+                                                <Link to="https://github.com/Anirat04/Share-Food_Server" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Backend Code
                                                 </Link>
                                             </div>
                                             <div className="md:text-right mt-[15px] md:mt-0">
-                                                <p className="text-[#61ce70]">Technologies</p>
+                                                <p className="text-[#ff714a]">Technologies</p>
                                                 <div className="grid grid-cols-3 md:justify-items-end gap-2 mt-[5px] text-[20px]">
                                                     <FaReact />
                                                     <SiMongodb />
@@ -219,27 +219,27 @@ const Projects = ({scrollProject}) => {
                                     <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                                         <a href="#">
                                             <h3 className="font-bold uppercase text-white text-[20px]">
-                                                <span className="text-[#61ce70]">e</span>Trade<span className="text-[12px] text-gray-400">- Clothing Ecommerce</span>
+                                                <span className="text-[#ff714a]">e</span>Trade<span className="text-[12px] text-gray-400">- Clothing Ecommerce</span>
                                             </h3>
                                         </a>
                                         <p>eTrade is a platform where you can by different brand's products.</p>
                                         <div className="grid md:grid-cols-2 mt-[8px]">
                                             <div className="grid border-gray-600 border-r-[1px]">
-                                                <p className="text-[#61ce70]">
+                                                <p className="text-[#ff714a]">
                                                     Links
                                                 </p>
-                                                <Link to="https://assignment-10-sell-shop.web.app/" target="_blank" className="hover:underline hover:text-[#61ce70]">
+                                                <Link to="https://assignment-10-sell-shop.web.app/" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Live Preview
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/eTrade" target="_blank" className="hover:underline hover:text-[#61ce70]">
+                                                <Link to="https://github.com/Anirat04/eTrade" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Frontend Code
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/eTrade_Server" className="hover:underline hover:text-[#61ce70]">
+                                                <Link to="https://github.com/Anirat04/eTrade_Server" className="hover:underline hover:text-[#ff714a]">
                                                     Backend Code
                                                 </Link>
                                             </div>
                                             <div className="md:text-right mt-[15px] md:mt-0">
-                                                <p className="text-[#61ce70]">Technologies</p>
+                                                <p className="text-[#ff714a]">Technologies</p>
                                                 <div className="grid grid-cols-3 md:justify-items-end gap-2 mt-[5px] text-[20px]">
                                                     <FaReact />
                                                     <SiMongodb />

@@ -21,13 +21,13 @@ const About = ({ scrollAbout }) => {
                         {/* About me section starts */}
                         <div className="about_section">
                             <div className="mx-[30px] mb-5">
-                                <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#61ce70]">A</span>bout Me</h3>
+                                <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#ff714a]">A</span>bout Me</h3>
                             </div>
                             <div className="divider m-0 h-0"></div>
                             <div className="grid md:grid-cols-2">
                                 <div className="p-[30px] border-[#3d3d47] border-r-[1px]">
                                     <p>
-                                        <span className="font-bold">Hello! I’m Tanbir Haque Anil.</span>
+                                        <span className="font-bold">Hello! I’m Md Roknuzzaman Sajib.</span>
                                         <br />
                                         <span className="font-medium">
                                             Skilled web developer from Dhaka, Bangladesh, proficient in HTML, CSS, JavaScript, Tailwind CSS, and React JS. Completed 12 practical personal projects and proficient in tools like DaisyUI, MambaUI, Material UI, and Flowbite.
@@ -36,15 +36,15 @@ const About = ({ scrollAbout }) => {
                                 </div>
                                 <div className="p-[30px]">
                                     <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between">
-                                        <span className="bg-[#61ce70] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Age:</span>
+                                        <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Age:</span>
                                         <span>17</span>
                                     </div>
                                     <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
-                                        <span className="bg-[#61ce70] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Nationality:</span>
+                                        <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Nationality:</span>
                                         <span>Bangladeshi</span>
                                     </div>
                                     <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
-                                        <span className="bg-[#61ce70] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Location:</span>
+                                        <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Location:</span>
                                         <span>Dhaka, Bangladesh</span>
                                     </div>
                                 </div>
@@ -58,12 +58,12 @@ const About = ({ scrollAbout }) => {
                             <div className="mx-[30px] grid md:grid-cols-2">
                                 <div className="education border-[#3d3d47] md:border-r-[1px] pr-5 pt-5">
                                     <h3 className="font-bold text-[20px] text-white popFont flex items-center gap-2 mb-3">
-                                        <IoIosSchool className="text-[35px] text-[#78cc6d]" />
+                                        <IoIosSchool className="text-[35px] text-[#ff8564]" />
                                         Education
                                     </h3>
                                     <div className="border-y-[1px] border-[#3d3d47] py-[20px]">
-                                        <div className="border border-[#78cc6d] inline-block px-[10px]">
-                                            <h3 className="text-[13px] text-[#78cc6d]">2023 - Present</h3>
+                                        <div className="border border-[#ff8564] inline-block px-[10px]">
+                                            <h3 className="text-[13px] text-[#ff8564]">2023 - Present</h3>
                                         </div>
                                         <p className="text-white font-semibold mt-[10px]">HSC</p>
                                         <p className="text-[12px]">Science</p>
@@ -71,8 +71,8 @@ const About = ({ scrollAbout }) => {
                                         <p>Location: Dhaka, Bangladesh</p>
                                     </div>
                                     <div className="border-y-[1px] border-[#3d3d47] py-[20px]">
-                                        <div className="border border-[#78cc6d] inline-block px-[10px]">
-                                            <h3 className="text-[13px] text-[#78cc6d]">2021 - 2022</h3>
+                                        <div className="border border-[#ff8564] inline-block px-[10px]">
+                                            <h3 className="text-[13px] text-[#ff8564]">2021 - 2022</h3>
                                         </div>
                                         <p className="text-white font-semibold mt-[10px]">SSC</p>
                                         <p className="text-[12px]">Science</p>
@@ -82,25 +82,25 @@ const About = ({ scrollAbout }) => {
                                 </div>
                                 <div className="language pt-5">
                                     <h3 className="font-bold text-[20px] text-white popFont flex items-center gap-2 ml-[20px]  mb-3">
-                                        <HiMiniLanguage className="text-[35px] text-[#78cc6d]" />
+                                        <HiMiniLanguage className="text-[35px] text-[#ff8564]" />
                                         Language
                                     </h3>
                                     <div className="border-y-[1px] border-[#3d3d47]  ml-[20px] grid gap-6 pt-5 pb-[45px]">
                                         <div>
                                             <p className="font-medium text-white">English - <span className="text-gray-400 text-[12px]">Intermediate</span></p>
-                                            <progress className="progress progress-success w-56" value="2" max="4"></progress>
+                                            <progress className="progress progress-error w-56" value="2" max="4"></progress>
                                         </div>
                                         <div>
                                             <p className="font-medium text-white">Bangla - <span className="text-gray-400 text-[12px]">Native</span></p>
-                                            <progress className="progress progress-success w-56" value="4" max="4"></progress>
+                                            <progress className="progress progress-error w-56" value="4" max="4"></progress>
                                         </div>
                                         <div>
                                             <p className="font-medium text-white">Hindi - <span className="text-gray-400 text-[12px]">Advance</span></p>
-                                            <progress className="progress progress-success w-56" value="3" max="4"></progress>
+                                            <progress className="progress progress-error w-56" value="3" max="4"></progress>
                                         </div>
                                         <div>
                                             <p className="font-medium text-white">Urdu - <span className="text-gray-400 text-[12px]">Basic</span></p>
-                                            <progress className="progress progress-success w-56" value="1" max="4"></progress>
+                                            <progress className="progress progress-error w-56" value="1" max="4"></progress>
                                         </div>
                                     </div>
                                 </div>
@@ -111,8 +111,8 @@ const About = ({ scrollAbout }) => {
                         {/* Skills section starts */}
                         <div className="skill_section mt-[30px]">
                             <div className="mx-[30px] mb-5 flex items-center gap-2">
-                                <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#61ce70]">S</span>kills</h3>
-                                <GiBiceps className="text-[20px] text-[#61ce70]" />
+                                <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#ff714a]">S</span>kills</h3>
+                                <GiBiceps className="text-[20px] text-[#ff714a]" />
                             </div>
                             <div className="divider m-0 h-0"></div>
                             <div className="grid md:grid-cols-3 gap-5 px-[30px] justify-items-center mt-5">
