@@ -1,33 +1,29 @@
-import { Outlet } from "react-router-dom";
+import { useState } from "react";
+import AnimatedSection from "./Components/AnimatedSection";
 import About from "./Pages/About/About";
 import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
-// import About from "./Pages/About/About";
-// import PageContainer from "./Pages/PageContainer";
-// import Banner from "./Shared/Banner/Banner";
-// import Navbar from "./Shared/Navbar/Navbar";
+import { Outlet } from "react-router-dom";
 
+const Home = ({ scrollAbout, scrollProject, scrollContact }) => {
+    const [activeSection, setActiveSection] = useState(null);
 
-const Home = ({scrollAbout, scrollProject, scrollContact }) => {
     return (
-        <div >
-            {/* <Navbar></Navbar>
-            <Banner></Banner> */}
-            {/* <PageContainer></PageContainer> */}
-            {/* <About></About> */}
+        <div>
             <div className="hidden xl:inline-block">
-                <Outlet></Outlet>
+                <Outlet />
             </div>
-            <div className="xl:hidden">
-                <About
-                    scrollAbout={scrollAbout}
-                ></About>
-                <Projects
-                    scrollProject={scrollProject}
-                ></Projects>
-                <Contact
-                    scrollContact={scrollContact}
-                ></Contact>
+
+            <div className="xl:hidden relative z-10">
+                <AnimatedSection isVisible={activeSection === "about"}>
+                    <About scrollAbout={scrollAbout} />
+                </AnimatedSection>
+                <AnimatedSection isVisible={activeSection === "projects"}>
+                    <Projects scrollProject={scrollProject} />
+                </AnimatedSection>
+                <AnimatedSection isVisible={activeSection === "contact"}>
+                    <Contact scrollContact={scrollContact} />
+                </AnimatedSection>
             </div>
         </div>
     );

@@ -13,22 +13,26 @@ const Layout = () => {
     const scrollProject = useRef();
     const scrollContact = useRef();
     // const scrollRef = useRef(null);
+    const [activeSection, setActiveSection] = useState(null);
 
     const handleScrollProject = () => {
         scrollProject.current?.scrollIntoView({
             behavior: "smooth"
         })
+        setActiveSection("projects");
         console.log(scrollProject.current);
     }
     const handleScrollContact = () => {
         scrollContact.current?.scrollIntoView({
             behavior: "smooth"
         });
+        setActiveSection("contact");
     }
     const handleScrollAbout = () => {
         scrollAbout.current?.scrollIntoView({
             behavior: "smooth"
         });
+        setActiveSection("about");
     }
 
     // const handleScrollTop = () => [
@@ -64,12 +68,14 @@ const Layout = () => {
                             scrollAbout={scrollAbout}
                             scrollProject={scrollProject}
                             scrollContact={scrollContact}
+                            activeSection={activeSection}
                         ></Home>
                     </div>
                     <div className="xl:hidden">
                         <button className="p-2 rounded-full bg-[#ff8564] fixed bottom-5 right-5 z-[999999]"
                             onClick={() => {
                                 window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+                                setActiveSection(null);
                             }}
                         >
                             <HiOutlineArrowUp className="text-white text-[28px]" />
