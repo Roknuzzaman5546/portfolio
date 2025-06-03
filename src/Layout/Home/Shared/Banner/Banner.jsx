@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
-        <div>
+        <div className=' overflow-hidden relative z-10'>
             <div
                 className="bannerContainer bg-[#31313a] xl:max-w-[480px] mx-auto md:mx-0 overflow-hidden rounded-md relative mt-5 xl:mt-0"
                 style={{ boxShadow: "3px 0 8px rgba(0, 0, 0, 0.5)" }}

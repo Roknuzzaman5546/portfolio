@@ -11,10 +11,25 @@ import SkillsComponent from "../../Components/SkillsComponent/SkillsComponent";
 import { IoIosSchool } from "react-icons/io";
 import { GiBiceps } from "react-icons/gi";
 import { HiMiniLanguage } from "react-icons/hi2";
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 const About = ({ scrollAbout }) => {
+
+    useEffect(() => {
+        Aos.init({
+            duration: 500,
+            offset: 400
+        });
+    }, []);
+
     return (
-        <section id="about" ref={scrollAbout}>
+        <section
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            id="about" ref={scrollAbout}>
             <div>
                 <div className="xl:h-[673px] py-[10px]">
                     <div className="bg-[#31313a] mx-auto xl:w-[685px] h-full pt-6 md:overflow-hidden xl:overflow-y-scroll pb-[40px]">

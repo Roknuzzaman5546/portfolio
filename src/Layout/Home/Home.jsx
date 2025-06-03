@@ -12,7 +12,7 @@ const Home = ({ activeSection }) => {
         <Outlet />
       </div>
 
-      <div className="xl:hidden relative z-10">
+      <div className="xl:hidden">
         <AnimatedSection isVisible={activeSection === "about"}>
           <About />
         </AnimatedSection>

@@ -2,10 +2,19 @@ import { MdArrowRightAlt } from "react-icons/md";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 import './Contact.css'
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 // service id: service_bpdhafi
 
-const Contact = ({scrollContact}) => {
+const Contact = ({ scrollContact }) => {
+    useEffect(() => {
+        Aos.init({
+            duration: 500,
+            offset: 400
+        });
+    }, []); 
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -26,8 +35,11 @@ const Contact = ({scrollContact}) => {
     };
     return (
         <section id="contact"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
             ref={scrollContact}
-            // ref={setSectionRef}
+        // ref={setSectionRef}
         >
             <div>
                 <div className="xl:h-[673px] w-full py-[10px]">
@@ -39,9 +51,9 @@ const Contact = ({scrollContact}) => {
                             <div className="divider m-0 h-0"></div>
                         </div>
                         <div className="flex justify-center mt-[30px] px-[20px] md:px-0">
-                            <iframe 
-                            className="w-full md:px-7"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7306.9560473042875!2d90.47073600000003!3d23.6946177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1702308476445!5m2!1sen!2sbd" height="225" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe
+                                className="w-full md:px-7"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7306.9560473042875!2d90.47073600000003!3d23.6946177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1702308476445!5m2!1sen!2sbd" height="225" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
                         <div className="p-[30px] grid md:grid-cols-2 gap-7">
