@@ -13,7 +13,7 @@ const SkillsComponent = ({skillPNG, skill, percents}) => {
                         <p className="font-bold text-white text-[18px] my-[10px]">{skill}</p>
                     </div>
                     <div className="skill_percentage bg-[#131313] p-[10px] w-[140px] text-center rounded-2xl">
-                        <p className="font-bold text-[#656565] text-[20px]">{percents}</p>
+                        <p className="font-bold text-[#ffff] text-[20px]">{percents}</p>
                     </div>
                 </div>
             </div>

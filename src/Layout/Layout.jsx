@@ -46,10 +46,10 @@ const Layout = () => {
                 hasBlendMode={true}
                 showSystemCursor={true}
                 innerStyle={{
-                    backgroundColor: '#61ce70'
+                    backgroundColor: '#ff5b2e'
                 }}
                 outerStyle={{
-                    border: '1px solid #61ce70'
+                    border: '1px solid #ff5b2e'
                 }}
             />
             {/* <h1>this is home layout</h1> */}

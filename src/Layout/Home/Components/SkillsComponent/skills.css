@@ -1,6 +1,6 @@
 
 .skill_div:hover .skill_border{
-    border-color: #61ce70;
+    border-color: #ff714a;
     transition: all linear 0.2s;
     -webkit-transition: all linear 0.2s;
     -moz-transition: all linear 0.2s;
@@ -8,7 +8,8 @@
     -o-transition: all linear 0.2s;
 }
 .skill_div:hover .skill_border .skill_percentage{
-    background-color: #61ce70;
+    color: #ffff;
+    background-color: #ff714a;
     transition: all linear 0.2s;
     -webkit-transition: all linear 0.2s;
     -moz-transition: all linear 0.2s;

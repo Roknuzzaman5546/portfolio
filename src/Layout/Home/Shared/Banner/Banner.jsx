@@ -28,14 +28,13 @@ const Banner = () => {
                         <h1 className='text-[32px] font-bold text-white'>Md Roknuzzaman Sajib</h1>
                         <TypeAnimation
                             sequence={[
-                                'Web Developer',  // Types 'Web Development'
-                                2000,               // Waits 2s
-                                ' ',                // Types a space (to erase the text)
-                                1000,               // Waits 1s
-                                'Web Developer',  // Types 'Web Development' again
-                                2000,               // Waits 2s
+                                'Web Developer',
+                                2000,  
+                                ' ',   
+                                1000,  
+                                'Web Developer',
+                                2000,      
                                 () => {
-                                    // console.log('Sequence completed');
                                 },
                             ]}
                             wrapper="span"
@@ -66,7 +65,7 @@ const Banner = () => {
                 </div>
                 <div className="btnDiv uppercase font-bold text-white text-[14px] grid grid-cols-2 justify-center border-[#54545d] border-t-[1px] relative">
                     <div className='border-[#54545d] border-r-[1px] py-5'>
-                        <h3 className='flex gap-3 items-center justify-center hover:text-[#78cc6d]'>
+                        <h3 className='flex gap-3 items-center justify-center hover:text-[#ff714a]'>
                             <a className='flex items-center gap-1' href={resumePDF} download>
                                 download CV
                                 <MdDownload className='text-[20px]'/>
@@ -75,7 +74,7 @@ const Banner = () => {
                     </div>
                     <div className='py-5'>
                         <Link to='/contact'>
-                            <h3 className='flex gap-2 items-center justify-center hover:text-[#78cc6d]'>
+                            <h3 className='flex gap-2 items-center justify-center hover:text-[#ff714a]'>
                                 Contact me
                                 <IoMdMail className='text-[20px]'/>
                             </h3>

@@ -36,15 +36,15 @@ const About = ({ scrollAbout }) => {
                                 </div>
                                 <div className="p-[30px]">
                                     <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between">
-                                        <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Age:</span>
+                                        <span className="bg-[#ff714a] text-black text-[14px] px-[10px] max-h-[22px]">Age:</span>
                                         <span>17</span>
                                     </div>
                                     <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
-                                        <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Nationality:</span>
+                                        <span className="bg-[#ff714a] text-black text-[14px] px-[10px] max-h-[22px]">Nationality:</span>
                                         <span>Bangladeshi</span>
                                     </div>
                                     <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
-                                        <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Location:</span>
+                                        <span className="bg-[#ff714a] text-black text-[14px] px-[10px] max-h-[22px]">Location:</span>
                                         <span>Dhaka, Bangladesh</span>
                                     </div>
                                 </div>

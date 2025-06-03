@@ -48,7 +48,7 @@ const Projects = ({scrollProject}) => {
                                 >
                                     <div className="overlay hidden bg-gradient-to-br  w-full h-full absolute top-0 left-0">
                                         <Link to={'https://assignment-12-bery.web.app/'} target="_blank" >
-                                            <div className=" text-[36px] text-green-500 flex justify-center items-center h-full">
+                                            <div className=" text-[36px] text-[#ff5b2e] flex justify-center items-center h-full">
                                                 <FaLink className=""></FaLink>
                                             </div>
                                         </Link>
@@ -128,7 +128,7 @@ const Projects = ({scrollProject}) => {
                                 >
                                     <div className="overlay hidden bg-gradient-to-br  w-full h-full absolute top-0 left-0">
                                         <Link to={'https://assignment-11-share-food.web.app/'} target="_blank" >
-                                            <div className=" text-[36px] text-green-500 flex justify-center items-center h-full">
+                                            <div className=" text-[36px] text-[#ff5b2e] flex justify-center items-center h-full">
                                                 <FaLink className=""></FaLink>
                                             </div>
                                         </Link>
@@ -208,7 +208,7 @@ const Projects = ({scrollProject}) => {
                                 >
                                     <div className="overlay hidden bg-gradient-to-br  w-full h-full absolute top-0 left-0">
                                         <Link to={'https://assignment-10-sell-shop.web.app/'} target="_blank" >
-                                            <div className=" text-[36px] text-green-500 flex justify-center items-center h-full">
+                                            <div className=" text-[36px] text-[#ff5b2e] flex justify-center items-center h-full">
                                                 <FaLink className=""></FaLink>
                                             </div>
                                         </Link>
@@ -308,7 +308,7 @@ export default Projects;
         src="https://i.ibb.co/RQZ6XGv/Share-Food.png"
         className="aspect-square h-full w-full object-cover"
     />
-    <div className="overlay hidden bg-gradient-to-br from-green-500/60 to-green-100/50 w-full h-full absolute top-0 left-0">
+    <div className="overlay hidden bg-gradient-to-br from-#ff5b2e/60 to-green-100/50 w-full h-full absolute top-0 left-0">
         <Link to="https://assignment-11-share-food.web.app/" target="_blank" >
             <div className=" text-[36px] text-white flex justify-center items-center h-full">
                 <FaLink className="shadow-lg"></FaLink>
