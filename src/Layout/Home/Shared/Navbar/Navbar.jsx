@@ -8,7 +8,6 @@ import './Navbar.css'
 import { IoMdMail } from "react-icons/io";
 
 const Navbar = ({ handleScroll }) => {
-    console.log(handleScroll)
     return (
         <div className="navContainer md:mt-[20px] md:mr-[10px]">
             <ul className="bg-[#31313a] navlink flex justify-center md:inline-block w-full">
