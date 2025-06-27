@@ -62,7 +62,7 @@ const Contact = ({ scrollContact }) => {
                             </div>
                             <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
                                 <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Email:</span>
-                                <span className="text-[14px]">tanbirhaque53@gmail.com</span>
+                                <span className="text-[14px]">roknuzzamansojib78@gmail@gmail.com</span>
                             </div>
                             <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
                                 <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Phone:</span>
