@@ -16,7 +16,7 @@ const Navbar = ({ handleScroll }) => {
                         onClick={handleScroll[0]}
                     >
                         <FaRegUser className="text-[22px]  mb-[5px]" />
-                        About
+                        About of Me
                     </li>
                 </NavLink>
                 {/* <li className="flex flex-col items-center px-4 py-[15px] text-[14px]">

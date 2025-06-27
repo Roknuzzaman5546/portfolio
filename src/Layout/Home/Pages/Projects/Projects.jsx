@@ -76,7 +76,7 @@ const Projects = ({ scrollProject }) => {
                                                 <span className="text-[#ff714a]">B</span>ery <span className="text-[12px] text-gray-400">- Real Estate Project</span>
                                             </h3>
                                         </a>
-                                        <p>Bery is a real-state website with 3 different dashboards, for admin, users and agents.</p>
+                                        <p>Rentify client is a real-state website with 3 different dashboards, for admin, users and agents.</p>
                                         <div className="grid md:grid-cols-2 mt-[8px]">
                                             <div className="grid border-gray-600 border-r-[1px]">
                                                 <p className="text-[#ff714a]">
