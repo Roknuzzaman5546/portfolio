@@ -28,11 +28,11 @@ const Banner = () => {
                         <h1 className='text-[32px] font-bold text-white'>Md Roknuzzaman Sajib</h1>
                         <TypeAnimation
                             sequence={[
-                                'Web Developer',
+                                'Software Developer',
                                 2000,  
                                 ' ',   
                                 1000,  
-                                'Web Developer',
+                                'Software Developer',
                                 2000,      
                                 () => {
                                 },

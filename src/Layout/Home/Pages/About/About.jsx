@@ -45,7 +45,7 @@ const About = ({ scrollAbout }) => {
                                         <span className="font-bold">Hello! I’m Md Roknuzzaman Sajib.</span>
                                         <br />
                                         <span className="font-medium">
-                                            Skilled web developer from Dhaka, Bangladesh, proficient in HTML, CSS, JavaScript, Tailwind CSS, and React JS. Completed 12 practical personal projects and proficient in tools like DaisyUI, MambaUI, Material UI, and Flowbite.
+                                            Skilled Full Stack developer from Nilphamari, Bangladesh, proficient in JavaScript, jquery, React JS, Laravel and PHP. Completed 12 practical personal projects and proficient in tools like DaisyUI, MambaUI, Material UI, and Flowbite.
                                         </span>
                                     </p>
                                 </div>
@@ -78,7 +78,7 @@ const About = ({ scrollAbout }) => {
                                     </h3>
                                     <div className="border-y-[1px] border-[#3d3d47] py-[20px]">
                                         <div className="border border-[#ff8564] inline-block px-[10px]">
-                                            <h3 className="text-[13px] text-[#ff8564]">2023 - Present</h3>
+                                            <h3 className="text-[13px] text-[#ff8564]">2021 - 2022</h3>
                                         </div>
                                         <p className="text-white font-semibold mt-[10px]">HSC</p>
                                         <p className="text-[12px]">Science</p>
@@ -87,7 +87,7 @@ const About = ({ scrollAbout }) => {
                                     </div>
                                     <div className="border-y-[1px] border-[#3d3d47] py-[20px]">
                                         <div className="border border-[#ff8564] inline-block px-[10px]">
-                                            <h3 className="text-[13px] text-[#ff8564]">2021 - 2022</h3>
+                                            <h3 className="text-[13px] text-[#ff8564]">2020</h3>
                                         </div>
                                         <p className="text-white font-semibold mt-[10px]">SSC</p>
                                         <p className="text-[12px]">Science</p>
@@ -159,6 +159,20 @@ const About = ({ scrollAbout }) => {
                                     percents={'80%'}
                                 ></SkillsComponent>
 
+                                {/* Laravel */}
+                                <SkillsComponent
+                                    skillPNG={nodePNG}
+                                    skill={'Laravel'}
+                                    percents={'80%'}
+                                ></SkillsComponent>
+
+                                {/* PHP */}
+                                <SkillsComponent
+                                    skillPNG={nodePNG}
+                                    skill={'PHP'}
+                                    percents={'50%'}
+                                ></SkillsComponent>
+
                                 {/* Node js */}
                                 <SkillsComponent
                                     skillPNG={nodePNG}
@@ -171,6 +185,13 @@ const About = ({ scrollAbout }) => {
                                     skillPNG={expressPNG}
                                     skill={'Express'}
                                     percents={'50%'}
+                                ></SkillsComponent>
+
+                                {/* MYSQL */}
+                                <SkillsComponent
+                                    skillPNG={nodePNG}
+                                    skill={'MySQL'}
+                                    percents={'70%'}
                                 ></SkillsComponent>
 
                                 {/* mongodb */}
