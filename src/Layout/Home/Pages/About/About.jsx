@@ -4,6 +4,9 @@ import jsPNG from "../../../../assets/Images/javascript_icon.png"
 import reactPNG from "../../../../assets/Images/react-icon-29.jpg"
 import nodePNG from "../../../../assets/Images/node-js-icon-8.jpg"
 import expressPNG from "../../../../assets/Images/express_logo.png"
+import laravelPNG from "../../../../assets/Images/Laravel.png"
+import PHPPNG from "../../../../assets/Images/php.png"
+import mysqlPNG from "../../../../assets/Images/mysq.png"
 import mongoDB from "../../../../assets/Images/mongoDB.png"
 import tailwindPNG from "../../../../assets/Images/Tailwind-CSS1-900x0.png"
 import bootstrapPNG from "../../../../assets/Images/bootstrap.png"
@@ -80,10 +83,10 @@ const About = ({ scrollAbout }) => {
                                         <div className="border border-[#ff8564] inline-block px-[10px]">
                                             <h3 className="text-[13px] text-[#ff8564]">2021 - 2022</h3>
                                         </div>
-                                        <p className="text-white font-semibold mt-[10px]">HSC</p>
-                                        <p className="text-[12px]">Science</p>
-                                        <p>Dania University College</p>
-                                        <p>Location: Dhaka, Bangladesh</p>
+                                        <p className="text-white font-semibold mt-[10px]">Diploma In engineering</p>
+                                        <p className="text-[12px]">CSE</p>
+                                        <p>Thakurgaon Polytechnic Institute</p>
+                                        <p>Location: Thakurgaon, Bangladesh</p>
                                     </div>
                                     <div className="border-y-[1px] border-[#3d3d47] py-[20px]">
                                         <div className="border border-[#ff8564] inline-block px-[10px]">
@@ -91,8 +94,8 @@ const About = ({ scrollAbout }) => {
                                         </div>
                                         <p className="text-white font-semibold mt-[10px]">SSC</p>
                                         <p className="text-[12px]">Science</p>
-                                        <p>Monipur High School and College</p>
-                                        <p>Location: Dhaka, Bangladesh</p>
+                                        <p>Goyabari School & Collage</p>
+                                        <p>Location: Goyabari, Dimla, Nilphamari, Bangladesh</p>
                                     </div>
                                 </div>
                                 <div className="language pt-5">
@@ -161,16 +164,16 @@ const About = ({ scrollAbout }) => {
 
                                 {/* Laravel */}
                                 <SkillsComponent
-                                    skillPNG={nodePNG}
+                                    skillPNG={laravelPNG}
                                     skill={'Laravel'}
                                     percents={'80%'}
                                 ></SkillsComponent>
 
                                 {/* PHP */}
                                 <SkillsComponent
-                                    skillPNG={nodePNG}
+                                    skillPNG={PHPPNG}
                                     skill={'PHP'}
-                                    percents={'50%'}
+                                    percents={'60%'}
                                 ></SkillsComponent>
 
                                 {/* Node js */}
@@ -189,7 +192,7 @@ const About = ({ scrollAbout }) => {
 
                                 {/* MYSQL */}
                                 <SkillsComponent
-                                    skillPNG={nodePNG}
+                                    skillPNG={mysqlPNG}
                                     skill={'MySQL'}
                                     percents={'70%'}
                                 ></SkillsComponent>

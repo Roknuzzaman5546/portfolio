@@ -13,7 +13,7 @@ const Contact = ({ scrollContact }) => {
             duration: 500,
             offset: 400
         });
-    }, []); 
+    }, []);
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -55,22 +55,26 @@ const Contact = ({ scrollContact }) => {
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7306.9560473042875!2d90.47073600000003!3d23.6946177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1702308476445!5m2!1sen!2sbd" height="225" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
-                        <div className="p-[30px] grid md:grid-cols-2 gap-7">
-                            <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
-                                <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Address:</span>
-                                <span>Dhaka, Bangladesh</span>
+                        <div className=" flex md:flex-row flex-col justify-center items-center mt-[30px]">
+                            <div className="p-[30px] flex flex-col justify-start gap-2">
+                                <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-start gap-2 mt-[8px]">
+                                    <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Address:</span>
+                                    <span>Nilphamari, Bangladesh</span>
+                                </div>
+                                <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-start gap-2 mt-[8px]">
+                                    <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Email:</span>
+                                    <span className="text-[14px]">roknuzzamansojib78@gmail.com</span>
+                                </div>
                             </div>
-                            <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
-                                <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Email:</span>
-                                <span className="text-[14px]">roknuzzamansojib78@gmail@gmail.com</span>
-                            </div>
-                            <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
-                                <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Phone:</span>
-                                <span>+8001646740414</span>
-                            </div>
-                            <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
-                                <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Freelance:</span>
-                                <span>Available</span>
+                            <div className=" flex flex-col px-[30px] gap-2">
+                                <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-start gap-2 mt-[8px]">
+                                    <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Phone:</span>
+                                    <span>+8001755463590</span>
+                                </div>
+                                <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-start gap-2 mt-[8px]">
+                                    <span className="bg-[#ff714a] text-gray-900 text-[14px] px-[10px] max-h-[22px]">Freelance:</span>
+                                    <span>Available</span>
+                                </div>
                             </div>
                         </div>
 
