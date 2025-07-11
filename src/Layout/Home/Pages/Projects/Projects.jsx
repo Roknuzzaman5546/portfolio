@@ -49,19 +49,19 @@ const Projects = ({ scrollProject }) => {
                                         dateTime="2022-10-10"
                                         className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-300"
                                     >
-                                        <span>Nov 23</span>
+                                        <span>January 24</span>
                                         <span className="w-px flex-1 bg-gray-300/20 text-center"></span>
-                                        <span>2023</span>
+                                        <span>2024</span>
                                         <span className="w-px flex-1 bg-gray-300/20 text-center"></span>
-                                        <span>Nov 29</span>
+                                        <span>March 24</span>
                                     </time>
                                 </div>
                                 {/* image */}
                                 <div className="project_img hidden sm:block sm:basis-56 relative bg-cover bg-top hover:bg-bottom ease-linear duration-[6000ms]"
-                                    style={{ backgroundImage: 'url(https://i.ibb.co/MsVTjrs/Bery.png)' }}
+                                    style={{ backgroundImage: 'url(https://i.ibb.co/Lz6WsKWX/screencapture-rentify-70183-web-app-2025-06-29-10-27-52.png)' }}
                                 >
                                     <div className="overlay hidden bg-gradient-to-br  w-full h-full absolute top-0 left-0">
-                                        <Link to={'https://assignment-12-bery.web.app/'} target="_blank" >
+                                        <Link to={'https://rentify-70183.web.app/'} target="_blank" >
                                             <div className=" text-[36px] text-[#ff5b2e] flex justify-center items-center h-full">
                                                 <FaLink className=""></FaLink>
                                             </div>
@@ -73,7 +73,7 @@ const Projects = ({ scrollProject }) => {
                                     <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                                         <a href="#">
                                             <h3 className="font-bold uppercase text-white text-[20px]">
-                                                <span className="text-[#ff714a]">B</span>ery <span className="text-[12px] text-gray-400">- Real Estate Project</span>
+                                                <span className="text-[#ff714a]">Re</span>ntify <span className="text-[12px] text-gray-400">- Real Estate Project</span>
                                             </h3>
                                         </a>
                                         <p>Rentify client is a real-state website with 3 different dashboards, for admin, users and agents.</p>
@@ -82,13 +82,13 @@ const Projects = ({ scrollProject }) => {
                                                 <p className="text-[#ff714a]">
                                                     Links
                                                 </p>
-                                                <Link to={'https://assignment-12-bery.web.app/'} target="_blank" className="hover:underline hover:text-[#ff714a]">
+                                                <Link to={'https://rentify-70183.web.app/'} target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Live Preview
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/Bery-Client" target="_blank" className="hover:underline hover:text-[#ff714a]">
+                                                <Link to="https://github.com/tanbirhaque/Rentify-client" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Frontend Code
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/Bery-server" target="_blank" className="hover:underline hover:text-[#ff714a]">
+                                                <Link to="https://github.com/tanbirhaque/Rentify-server" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Backend Code
                                                 </Link>
                                             </div>
@@ -129,19 +129,19 @@ const Projects = ({ scrollProject }) => {
                                         dateTime="2022-10-10"
                                         className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-300"
                                     >
-                                        <span>Nov 4</span>
+                                        <span>Feb 4</span>
                                         <span className="w-px flex-1 bg-gray-300/20 text-center"></span>
-                                        <span>2023</span>
+                                        <span>2024</span>
                                         <span className="w-px flex-1 bg-gray-300/20 text-center"></span>
-                                        <span>Nov 9</span>
+                                        <span>March 16</span>
                                     </time>
                                 </div>
                                 {/* image */}
                                 <div className="project_img hidden sm:block sm:basis-56 relative bg-cover bg-top hover:bg-bottom ease-linear duration-[6000ms]"
-                                    style={{ backgroundImage: 'url(https://i.ibb.co/qd2rt7C/Share-Food.png)' }}
+                                    style={{ backgroundImage: 'url(https://i.ibb.co/fz8fJSjw/screencapture-travel-guru-71001-web-app-2025-06-29-10-29-46.png)' }}
                                 >
                                     <div className="overlay hidden bg-gradient-to-br  w-full h-full absolute top-0 left-0">
-                                        <Link to={'https://assignment-11-share-food.web.app/'} target="_blank" >
+                                        <Link to={'https://travel-guru-71001.web.app/'} target="_blank" >
                                             <div className=" text-[36px] text-[#ff5b2e] flex justify-center items-center h-full">
                                                 <FaLink className=""></FaLink>
                                             </div>
@@ -153,7 +153,7 @@ const Projects = ({ scrollProject }) => {
                                     <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                                         <a href="#">
                                             <h3 className="font-bold uppercase text-white text-[20px]">
-                                                <span className="text-[#ff714a]">S</span>hare food <span className="text-[12px] text-gray-400">- Food Donation Project</span>
+                                                <span className="text-[#ff714a]">Tr</span>avel guru <span className="text-[12px] text-gray-400">-Travel & hotel booking site</span>
                                             </h3>
                                         </a>
                                         <p>Share Food is a food sharing website where people can donate their wastage foods for the people who need this</p>
@@ -162,13 +162,13 @@ const Projects = ({ scrollProject }) => {
                                                 <p className="text-[#ff714a]">
                                                     Links
                                                 </p>
-                                                <Link to="https://assignment-11-share-food.web.app/" target="_blank" className="hover:underline hover:text-[#ff714a]">
+                                                <Link to="https://travel-guru-71001.web.app/" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Live Preview
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/Share-Food_Client" target="_blank" className="hover:underline hover:text-[#ff714a]">
+                                                <Link to="https://github.com/Roknuzzaman5546/travel-guru-clint" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Frontend Code
                                                 </Link>
-                                                <Link to="https://github.com/Anirat04/Share-Food_Server" target="_blank" className="hover:underline hover:text-[#ff714a]">
+                                                <Link to="https://github.com/Roknuzzaman5546/travel-guru-server" target="_blank" className="hover:underline hover:text-[#ff714a]">
                                                     Backend Code
                                                 </Link>
                                             </div>
