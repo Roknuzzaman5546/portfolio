@@ -361,31 +361,6 @@ const Projects = ({ scrollProject }) => {
                                 </div>
                             </article>
                         </div>
-
-                        {/* <div className="grid grid-cols-2">
-                        <div>
-                            <div>
-                                <div>
-                                    <img src="https://i.ibb.co/d5LKHqT/Screenshot-5-removebg-preview.png" alt="" />
-                                </div>
-                                <div className="text-center">
-                                    <h3 className="text-white text-[18px]">Bery</h3>
-                                    <ul className="">
-                                        <li>
-                                            <Link>Live Link</Link>
-                                        </li>
-                                        <li>
-                                            <Link>Frontend Code</Link>
-                                        </li>
-                                        <li>
-                                            <Link>Backend Code</Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div></div>
-                    </div> */}
                     </div>
                 </div>
             </div>
@@ -394,20 +369,3 @@ const Projects = ({ scrollProject }) => {
 };
 
 export default Projects;
-
-
-{/* initial design of the project picture show */ }
-{/* <div className="project_img hidden sm:block sm:basis-56 relative">
-    <img
-        alt="Guitar"
-        src="https://i.ibb.co/RQZ6XGv/Share-Food.png"
-        className="aspect-square h-full w-full object-cover"
-    />
-    <div className="overlay hidden bg-gradient-to-br from-#ff5b2e/60 to-green-100/50 w-full h-full absolute top-0 left-0">
-        <Link to="https://assignment-11-share-food.web.app/" target="_blank" >
-            <div className=" text-[36px] text-white flex justify-center items-center h-full">
-                <FaLink className="shadow-lg"></FaLink>
-            </div>
-        </Link>
-    </div>
-</div> */}

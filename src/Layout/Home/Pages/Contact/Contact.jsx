@@ -5,6 +5,7 @@ import './Contact.css'
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
+import Swal from "sweetalert2";
 
 
 const Contact = ({ scrollContact }) => {
@@ -21,15 +22,27 @@ const Contact = ({ scrollContact }) => {
 
         emailjs
             .sendForm(
-                'service_bpdhafi',
-                'template_jwgxf0e',
+                'service_hlzemtc',
+                'template_nr0bpyf',
                 form.current,
-                'K1rFoWYEbyNtPk9iG'
+                '1Iekg1TGJsuiPAXAQ'
             )
             .then((result) => {
-                console.log(result.text);
+                if (result.text === 'OK') {
+                    Swal.fire({
+                        title: "Your mail send!",
+                        icon: "success",
+                        draggable: true
+                    });
+                }
             }, (error) => {
                 console.log(error.text);
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Something went wrong!",
+                    footer: '<a href="#">Why do I have this issue?</a>'
+                });
             });
     };
     return (
@@ -93,8 +106,8 @@ const Contact = ({ scrollContact }) => {
                                             className="py-[10px] pl-[15px] bg-transparent border-[2px] border-[#666] text-[#ff714a] focus:outline-none focus:ring-2 focus:ring-[#ff714a] focus:border-none"
                                         />
                                         <input
-                                            type="text"
-                                            name="user_email"
+                                            type="email"
+                                            name="email"
                                             placeholder="Email Address"
                                             className="py-[10px] pl-[15px] bg-transparent border-[2px] border-[#666] text-[#ff714a] focus:outline-none focus:ring-2 focus:ring-[#ff714a] focus:border-none"
                                         />
