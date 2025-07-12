@@ -23,7 +23,7 @@ const Contact = ({ scrollContact }) => {
         emailjs
             .sendForm(
                 'service_hlzemtc',
-                'template_nr0bpyf',
+                'template_ca24wcm',
                 form.current,
                 '1Iekg1TGJsuiPAXAQ'
             )
@@ -65,7 +65,7 @@ const Contact = ({ scrollContact }) => {
                         <div className="flex justify-center mt-[30px] px-[20px] md:px-0">
                             <iframe
                                 className="w-full md:px-7"
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7306.9560473042875!2d90.47073600000003!3d23.6946177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1702308476445!5m2!1sen!2sbd" height="225" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3580.4007106340005!2d88.9930301264644!3d26.18364013973107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sbd!4v1752304902524!5m2!1sen!2sbd" height="225" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
                         <div className=" flex md:flex-row flex-col justify-center items-center mt-[30px]">
