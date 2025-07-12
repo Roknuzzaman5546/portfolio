@@ -55,7 +55,7 @@ const About = ({ scrollAbout }) => {
                                 <div className="p-[30px]">
                                     <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between">
                                         <span className="bg-[#ff714a] text-black text-[14px] px-[10px] max-h-[22px]">Age:</span>
-                                        <span>17</span>
+                                        <span>22</span>
                                     </div>
                                     <div className="border-[#3d3d47] border-b-[1px] pb-2 flex justify-between mt-[8px]">
                                         <span className="bg-[#ff714a] text-black text-[14px] px-[10px] max-h-[22px]">Nationality:</span>
@@ -81,7 +81,7 @@ const About = ({ scrollAbout }) => {
                                     </h3>
                                     <div className="border-y-[1px] border-[#3d3d47] py-[20px]">
                                         <div className="border border-[#ff8564] inline-block px-[10px]">
-                                            <h3 className="text-[13px] text-[#ff8564]">2021 - 2022</h3>
+                                            <h3 className="text-[13px] text-[#ff8564]">2020 - 2021</h3>
                                         </div>
                                         <p className="text-white font-semibold mt-[10px]">Diploma In engineering</p>
                                         <p className="text-[12px]">CSE</p>
