@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { FaReact } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
+import { FaCpanel, FaLaravel, FaPhp, FaReact } from "react-icons/fa";
+import { SiJquery, SiMongodb, SiMysql } from "react-icons/si";
 import { TbBrandNodejs } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
@@ -41,7 +41,87 @@ const Projects = ({ scrollProject }) => {
 
                         <div className="mx-[30px] grid  mt-5">
                             <h3 className="text-center text-white uppercase font-bold text-[26px] mb-[10px]">Project - 1</h3>
-                            {/* Bery */}
+                            {/* Nedubd */}
+                            <article className="flex bg-[#1f1f1f] transition hover:shadow-xl">
+                                {/* duration */}
+                                <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
+                                    <time
+                                        dateTime="2022-10-10"
+                                        className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-300"
+                                    >
+                                        <span>January 24</span>
+                                        <span className="w-px flex-1 bg-gray-300/20 text-center"></span>
+                                        <span>2024</span>
+                                        <span className="w-px flex-1 bg-gray-300/20 text-center"></span>
+                                        <span>March 24</span>
+                                    </time>
+                                </div>
+                                {/* image */}
+                                <div className="project_img hidden sm:block sm:basis-56 relative bg-cover bg-top hover:bg-bottom ease-linear duration-[6000ms]"
+                                    style={{ backgroundImage: 'url(https://i.ibb.co/6c7Mydd0/screencapture-academichelperbd-dashboard-10120-2025-07-12-11-01-00.png)' }}
+                                >
+                                    <div className="overlay hidden bg-gradient-to-br  w-full h-full absolute top-0 left-0">
+                                        <Link to={'https://academichelperbd.com/'} target="_blank" >
+                                            <div className=" text-[36px] text-[#ff5b2e] flex justify-center items-center h-full">
+                                                <FaLink className=""></FaLink>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                                {/* info */}
+                                <div className="flex flex-1 flex-col justify-between">
+                                    <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+                                        <a href="#">
+                                            <h3 className="font-bold uppercase text-white text-[20px]">
+                                                <span className="text-[#ff714a]">Ne</span>dubd <span className="text-[12px] text-gray-400">- School Management Software</span>
+                                            </h3>
+                                        </a>
+                                        <p>Nedubd is SAS system School management Software, it's my offiche project, I contribute here some of module</p>
+                                        <div className="grid md:grid-cols-2 mt-[8px]">
+                                            <div className="grid border-gray-600 border-r-[1px]">
+                                                <p className="text-[#ff714a]">
+                                                    Links
+                                                </p>
+                                                <Link to={'https://rentify-70183.web.app/'} target="_blank" className="hover:underline hover:text-[#ff714a]">
+                                                    Live Preview
+                                                </Link>
+                                                <Link to="https://github.com/tanbirhaque/Rentify-client" target="_blank" className="hover:underline hover:text-[#ff714a]">
+                                                    Frontend Code
+                                                </Link>
+                                                <Link to="https://github.com/tanbirhaque/Rentify-server" target="_blank" className="hover:underline hover:text-[#ff714a]">
+                                                    Backend Code
+                                                </Link>
+                                            </div>
+                                            <div className="md:text-right mt-[15px] md:mt-0">
+                                                <p className="text-[#ff714a]">Technologies</p>
+                                                <div className="grid grid-cols-3 md:justify-items-end gap-2 mt-[5px] text-[20px]">
+                                                    <FaLaravel />
+                                                    <FaPhp />
+                                                    <SiMysql />
+                                                    <SiJquery />
+                                                    <FaCpanel />
+                                                    <FaHtml5 />
+                                                    <FaCss3Alt />
+                                                    <SiTailwindcss />
+                                                    <FaGitAlt />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="sm:flex sm:items-end sm:justify-end">
+                                        <a
+                                            href="#"
+                                            className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
+                                        >
+                                            Details
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <h3 className="text-center text-white uppercase font-bold text-[26px] mt-9 mb-[10px]">Project - 2</h3>
+                            {/* Rentify Client */}
                             <article className="flex bg-[#1f1f1f] transition hover:shadow-xl">
                                 {/* duration */}
                                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
@@ -120,8 +200,8 @@ const Projects = ({ scrollProject }) => {
                                 </div>
                             </article>
 
-                            <h3 className="text-center text-white uppercase font-bold text-[26px] mt-9 mb-[10px]">Project - 2</h3>
-                            {/* Share Food */}
+                            <h3 className="text-center text-white uppercase font-bold text-[26px] mt-9 mb-[10px]">Project - 3</h3>
+                            {/* Travel Guru */}
                             <article className="flex bg-[#1f1f1f] transition hover:shadow-xl">
                                 {/* duration */}
                                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
@@ -156,7 +236,7 @@ const Projects = ({ scrollProject }) => {
                                                 <span className="text-[#ff714a]">Tr</span>avel guru <span className="text-[12px] text-gray-400">-Travel & hotel booking site</span>
                                             </h3>
                                         </a>
-                                        <p>Share Food is a food sharing website where people can donate their wastage foods for the people who need this</p>
+                                        <p>Travel guru is a a Hotel and place booking E-commerce site.It is a MERN Stack project.It has a beautiful UI designed in it.</p>
                                         <div className="grid md:grid-cols-2 mt-[8px]">
                                             <div className="grid border-gray-600 border-r-[1px]">
                                                 <p className="text-[#ff714a]">
@@ -200,7 +280,7 @@ const Projects = ({ scrollProject }) => {
                                 </div>
                             </article>
 
-                            <h3 className="text-center text-white uppercase font-bold text-[26px] mt-9 mb-[10px]">Project - 3</h3>
+                            <h3 className="text-center text-white uppercase font-bold text-[26px] mt-9 mb-[10px]">Project - 4</h3>
                             {/* eTrade */}
                             <article className="flex bg-[#1f1f1f] transition hover:shadow-xl">
                                 {/* duration */}
